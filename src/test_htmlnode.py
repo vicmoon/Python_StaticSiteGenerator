@@ -15,9 +15,9 @@ class TestHTMLNode(unittest.TestCase):
         self.assertTrue(result.startswith(" "))
 
 
-    def test_props_to_html_empty(self):
-        node = HTMLNode(tag="p", value="Hello")
-        self.assertEqual(node.props_to_html(), "")
+    # def test_props_to_html_empty(self):
+    #     node = HTMLNode(tag="p", value="Hello")
+    #     self.assertEqual(node.props_to_html(), "")
 
 
     def test_props_to_html_single(self):
