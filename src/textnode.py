@@ -8,6 +8,8 @@ class TextType(Enum):
     Link = "link"
     Image = "image"
 
+    
+
 
 class TextNode:
     def __init__(self,text,text_type, url=None):
@@ -29,3 +31,4 @@ class TextNode:
         return f"TextNode({self.text}, {self.text_type.value}, {self.url})"
 
 
+  
