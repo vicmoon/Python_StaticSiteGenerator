@@ -84,3 +84,7 @@ def text_to_textnodes(text):
     nodes = split_nodes_delimiter(nodes, "`", TextType.Code)
     return nodes
 
+
+def text_to_children(text):
+    text_nodes = text_to_textnodes(text)
+    return [text_node_to_html_node(node) for node in text_nodes]
