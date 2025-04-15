@@ -1,5 +1,7 @@
 from textnode import TextType, TextNode
 from text_parser import split_nodes_delimiter 
+from converter import text_node_to_html_node
+
 import re
 
 def split_nodes_link(old_nodes):
